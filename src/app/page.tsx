@@ -26,7 +26,7 @@ export default function Home() {
                 Sort
                 <ChevronDown className="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end">
+              <DropdownMenuContent className="bg-gray-50 rounded-sm overflow-hidden shadow-lg transition-all" align="end">
                 {
                   SORT_OPTIONS?.map((option) => (
                     <button
